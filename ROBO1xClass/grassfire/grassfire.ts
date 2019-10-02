@@ -139,3 +139,16 @@ export const grassfireRecursive = (inputArray: number[][]) => {
 
   return hashMapToArray(output, getArraySize(inputArray));
 };
+
+// create A* algo, following the actual algo
+/**
+ * Configuration space exercises? convert some 2d+translation
+ * into config space + apply A* algo to it
+ * Allow us to visualize
+ * This will also force me to create a collision checking function
+ * config space => allows planning algo
+ * can now deal with only 1 point in x dimentional space
+ * because the configuration space simplified everything.
+ * No need to think about the positions and angles anymore.
+ * Same for high DOF arms for example
+ */
