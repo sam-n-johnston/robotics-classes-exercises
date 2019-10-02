@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "start": "ts-node ./ROBO1xClass/grassfire/grassfire.ts",
-    "test": "jest"
+    "test": "jest --watch"
   },
   "author": "",
   "license": "ISC",
